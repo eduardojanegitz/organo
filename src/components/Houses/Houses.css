@@ -1,0 +1,25 @@
+.houses {
+    text-align: center;
+    padding: 32px;
+    background-position: center;
+    background-size: 70%;
+    border-bottom: 5px solid red;
+}
+
+.houses:last-child {
+    border-bottom: none;
+}
+
+.houses h3 {
+    font-size: 32px;
+    border-bottom: 4px solid;
+    display: inline-block;
+    padding-bottom: 4px;
+}
+
+.houses .characters-houses {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 32px;
+    flex-wrap: wrap;
+}
